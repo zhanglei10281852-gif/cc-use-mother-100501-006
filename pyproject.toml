@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "freight-replanning"
 version = "0.1.0"
-description = "多式联运异常重排基础领域契约"
+description = "多式联运异常重排服务：容量/时窗/温控班次组合、连续保管链、事件归段与候选改线"
 requires-python = ">=3.11"
 
 [tool.setuptools.packages.find]

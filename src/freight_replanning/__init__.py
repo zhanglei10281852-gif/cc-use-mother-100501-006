@@ -1,5 +1,51 @@
 """多式联运异常重排领域包。"""
 
 from .contracts import ShipmentPlan, unique_by_identity
+from .models import (
+    Booking,
+    BookingState,
+    Candidate,
+    Commitment,
+    CommitmentState,
+    CustodyRecord,
+    DisruptionType,
+    Event,
+    EventType,
+    LegMode,
+    LegStatus,
+    PackageUnit,
+    Replan,
+    ReplanState,
+    RoutePlan,
+    Shipment,
+    ShipmentState,
+    TransportLeg,
+    UnitState,
+)
+from .service import CapacityConflict, FreightService
 
-__all__ = ["ShipmentPlan", "unique_by_identity"]
+__all__ = [
+    "ShipmentPlan",
+    "unique_by_identity",
+    "FreightService",
+    "CapacityConflict",
+    "Booking",
+    "BookingState",
+    "Candidate",
+    "Commitment",
+    "CommitmentState",
+    "CustodyRecord",
+    "DisruptionType",
+    "Event",
+    "EventType",
+    "LegMode",
+    "LegStatus",
+    "PackageUnit",
+    "Replan",
+    "ReplanState",
+    "RoutePlan",
+    "Shipment",
+    "ShipmentState",
+    "TransportLeg",
+    "UnitState",
+]
